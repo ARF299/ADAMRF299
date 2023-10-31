@@ -9,6 +9,364 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Silkscreen&display=swap" rel="stylesheet">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+  body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #24C6DC; 
+  background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  
+  background: linear-gradient(to bottom, #514A9D, #24C6DC); 
+}
+
+.box div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255,255,255,0.8);
+}
+
+.box div:nth-child(1) {
+  top: 22%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2) {
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3) {
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4) {
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5) {
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7) {
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9) {
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+  top: 20%;
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(-90px) rotate(360deg);
+    border-radius: 10%;
+    opacity: 1;
+  }
+  
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(-180deg);
+    border-radius: 70%;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn1 {
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+ margin-top: -20px;
+  color: white;
+  font-size: 40px;
+  background: orange;
+  border: orange 5px solid;
+  border-radius: 20px;
+  transition: 0.2s;
+  text-shadow: 0 0 10px orangered,0 0 10px red;
+  
+}
+
+.btn1:active {
+  font-size: 36px;
+  color: gray;
+  background: orangered;
+  text-shadow: 0 0 10px red,0 0 10px orange;
+  box-shadow: 0 0 10px yellow, 0 0 5px red;
+}
+
+.btn2 {
+  font-size: 40px;
+  background: grey;
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+ margin-bottom: 20px;
+  border: 4px gray solid;
+  border-radius: 20px;
+  color: whitesmoke;
+  text-shadow:  0 0 5px white, 0 0 5px black;
+transition: 0.2s;
+
+}
+
+.btn2:active {
+  color: white;
+  text-shadow:  0 0 10px white, 0 0 5px grey;
+  font-size: 39px;
+  background: black;
+  box-shadow: 0 0 10px black, 0 0 15px grey;
+  color: grey;
+}
+
+.btn3 {
+  color: black;
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+font-size: 40px;
+  border-radius: 20px;
+ text-shadow: 0 0 10px grey, 0 0 5px black;
+  transition: 0.2s;
+}
+
+.btn3:active {
+  color: grey;
+  font-size: 39px;
+  background: black;
+   text-shadow: 0 0 10px white, 0 0 5px gray;
+  
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+l
+.in:active {
+  border: cornflowerblue double 3px;
+  
+ margin: 15px;
+   box-shadow:0 0 5px cornflowerblue, 0 0 5px blue, 0 0 10px aqua;
+
+}
+
+h4 {
+  margin-top: -20px;
+}
+
+h5{
+  margin-top: -40px;
+}
+.cout {
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+ 
+  background: black;
+   padding-top: 10px;
+  margin-right: -10px;
+  margin-left: -20px;
+  padding-bottom: 20px;
+  margin-top: -30px;
+ 
+}
+
+.row {
+  margin-top: -100px;
+}
+
+.out {
+  width: auto;
+  animation: new 11s alternate forwards infinite;
+  background: black;
+  font-size: 50px;
+  text-shadow: 0 0 20px cornflowerblue,0 0 10px aqua, 0 0 10px white;
+  color: white
+}
+
+@keyframes new{
+  0% {
+    color: aqua;
+  text-shadow: 0 0 10px white, 0 0 15px aqua, 0 0 10px blue;
+  }
+  50% {
+   color: cornflowerblue;
+    text-shadow: 0 0 10px aqua, 0 0 15px cornflowerblue, 0 0 10px blue;
+ 
+    
+  }
+  100% {
+    color: white;
+    text-shadow: 0 0 10px blue, 0 0 10px aqua,0 0 10 white;
+  }
+}
+
+.on {
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  padding: auto;
+  margin: 100px;
+  background-size: auto;
+  
+  border: blue 1px solid;)
+}
+
+#satu {
+  text-shadow: 0 0 10px orangered,0 0 12px orange;
+  color: orange;
+  border: aqua 10px solid;
+  border-radius: 25px;
+ background-image : url(Psx.jpg);
+  background-size: auto;
+  padding: 20px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px aqua, 0 0 15px blue,0 0 12px cornflowerblue;
+
+}
+
+#satu:active {
+  font-size: 30px;
+  color: orangered;
+  text-shadow: 0 0 10px red,0 0 10px orange;
+ 
+}
+
+#dua {
+  color: white;
+  border: aqua 10px solid;
+  text-shadow:  0 0 10px white, 0 0 12px blue;
+  background-image: url(robux.jpg);
+  background-size: auto;
+  border-radius: 25px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px aqua, 0 0 15px blue,0 0 12px cornflowerblue;
+
+  }
+
+#dua:active {
+    text-shadow:  0 0 5px grey,0 0 10px black;
+ color: grey;
+  
+}
+
+#tiga {
+  text-shadow: 0 0 10px aqua, 0 0 12px blue;
+  color: black;
+  border: aqua 10px solid;
+  border-radius: 25px;
+ background-image : url(Limi.jpg);
+  background-size: cover;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px aqua, 0 0 15px blue,0 0 12px cornflowerblue;
+}
+
+#tiga:active {
+  
+  text-shadow:  0 0 5px black,0 0 10px gray,0 0 10px aqua,0 0 5px blue;
+ color: cornflowerblue;
+}
+
+.spp {
+  font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Silkscreen', sans-serif;
+margin-top: -20px;
+   width: auto;
+   background: red;
+  font-size: 35px;
+   color: red;
+  text-shadow: 0 0 20px black,0 0 5px orange, 0 0 10px orangered;
+ width: auto;
+  box-shadow: 0 0 10px red,0 0 15px orangered, 0 0 20px red;
+ margin-bottom: -30px;
+  padding: 20px;
+  border: solid 10px red;
+  border-top-right-radius: 50px;
+    transition: 0.1s;
+}
+
+.spp:active {
+  padding: 18px;
+  font-size: -100px;
+  border-top-right-radius: 100x;
+text-shadow: 0 0 10px grey,0 0 15px orange, 0 0 20px red;
+  color: black;
+  background: #a80d0d ;
+}
+
+@keyframes old{
+  0% {
+    border: solid 7px red;
+    box-shadow: 0 0 7px red,0 0 10px orangered, 0 0 12px red;
+  }
+  50%{
+    
+    border: solid 4px red;
+ box-shadow: 0 0 4px red,0 0 8px orangered, 0 0 10px red;
+  }
+  100% {
+    border: solid 9px red;
+ box-shadow: 0 0 10px red,0 0 15px orangered, 0 0 20px red;
+  }
+  
+}
+
+a {
+  background: orange;
+}
+  
+  </style>
 </head>
 <body>
   
